@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fws\\mvc\\Matrimonial\\Matrimonial\\Matrimonial.csproj": {}
+    "D:\\pratik\\matrimonial-mvc\\Matrimonial\\Matrimonial.csproj": {}
   },
   "projects": {
-    "D:\\fws\\mvc\\Matrimonial\\Matrimonial\\Matrimonial.csproj": {
+    "D:\\pratik\\matrimonial-mvc\\Matrimonial\\Matrimonial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fws\\mvc\\Matrimonial\\Matrimonial\\Matrimonial.csproj",
+        "projectUniqueName": "D:\\pratik\\matrimonial-mvc\\Matrimonial\\Matrimonial.csproj",
         "projectName": "Matrimonial",
-        "projectPath": "D:\\fws\\mvc\\Matrimonial\\Matrimonial\\Matrimonial.csproj",
-        "packagesPath": "C:\\Users\\prati\\.nuget\\packages\\",
-        "outputPath": "D:\\fws\\mvc\\Matrimonial\\Matrimonial\\obj\\",
+        "projectPath": "D:\\pratik\\matrimonial-mvc\\Matrimonial\\Matrimonial.csproj",
+        "packagesPath": "C:\\Users\\pratik.c\\.nuget\\packages\\",
+        "outputPath": "D:\\pratik\\matrimonial-mvc\\Matrimonial\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\prati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pratik.c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
