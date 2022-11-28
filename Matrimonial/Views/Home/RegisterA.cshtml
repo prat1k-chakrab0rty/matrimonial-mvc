@@ -99,58 +99,31 @@
     </div>
     @*Personal Details Form*@
     <div class="item4 ms-5 mt-5">
-        <p class="text-danger fw-bold text-center">PERSONAL DETAIL</p>
+        <p class="text-danger fw-bold text-center">ADDRESS DETAIL</p>
         <div class="reg-form">
-            <form class="form-inline rform" >
-                <div class="text-center">
-                    <input type="radio" name="rtype" />
-                    <label class="me-3 text-danger">Register as Member</label>
-                    <input type="radio" name="rtype" />
-                    <label class="text-danger">Register as Visitor</label>
-                </div>
-                <label for="fname" class="mr-sm-2">First Name:</label>
-                <input type="fname" class="form-control mb-2 mr-sm-2" placeholder="Enter first name" id="fname">
-                <label for="mname" class="mr-sm-2">Middle Name:</label>
-                <input type="mname" class="form-control mb-2 mr-sm-2" placeholder="Enter middle name" id="mname">
-                <label for="lname" class="mr-sm-2">Last Name:</label>
-                <input type="lname" class="form-control mb-2 mr-sm-2" placeholder="Enter last name" id="lname">
-                <label for="gender" class="mr-sm-2">Gender</label>
-                <select type="lname" class="form-control mb-2 mr-sm-2" id="gender">
-                    <option>Male</option>
-                    <option>Female</option>
+            <form class="form-inline rform">
+                <label for="fname" class="mr-sm-2">Address1:</label>
+                <input type="fname" class="form-control mb-2 mr-sm-2" placeholder="Enter address 1" id="fname">
+                <label for="mname" class="mr-sm-2">Address2:</label>
+                <input type="mname" class="form-control mb-2 mr-sm-2" placeholder="Enter address 2" id="mname">
+                <label for="city" class="mr-sm-2">City</label>
+                <select type="lname" class="form-control mb-2 mr-sm-2" id="city">
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Kolkata</option>
+                    <option>Chennai</option>
                 </select>
-                <label for="email" class="mr-sm-2">Email address:</label>
-                <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">
-                @*                <label for="mobile" class="mr-sm-2">Mobile:</label>
-                <input type="phone" class="form-control mb-2 mr-sm-2" placeholder="Enter mobile" id="mobile">
-                <label for="city" class="mr-sm-2">City:</label>
-                <input type="city" class="form-control mb-2 mr-sm-2" placeholder="Enter city" id="city">*@
-                <label for="dob" class="mr-sm-2">Birth Of Date:</label>
-                <input type="date" class="form-control mb-2 mr-sm-2" placeholder="Enter dob" id="dob">
-                <label for="mobile" class="mr-sm-2">Mobile:</label>
-                <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter mobile" id="mobile">
-                <label for="religion" class="mr-sm-2">Religion :</label>
-                <select type="lname" class="form-control mb-2 mr-sm-2" id="religion">
-                    <option>Hindu</option>
-                    <option>Christian</option>
-                    <option>Muslim</option>
-                    <option>Sikh</option>
-                </select>
-                <label for="subcast" class="mr-sm-2">SubCast:</label>
-                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Enter Subcast" id="subcast">
-                <div class="text-start">
-                <label class="me-5">Family Type:</label>
-                    <input type="radio" name="rtype" />
-                    <label class="me-5 text-danger">Joint</label>
-                    <input type="radio" name="rtype" />
-                    <label class="text-danger">Nuclear</label>
-                </div>
-               @* <label for="pwd" class="mr-sm-2">Password:</label>
-                <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">
-                <label for="pwd" class="mr-sm-2">Confirm Password:</label>
-                <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">*@
+                <label for="email" class="mr-sm-2">State:</label>
+                <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter State" id="email">
+                <label for="mobile" class="mr-sm-2">Pincode:</label>
+                <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter pincode" id="mobile">
+                <label for="subcast" class="mr-sm-2">Area Code:</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Enter Area code" id="subcast">
+                <label for="mobile" class="mr-sm-2">Landline Number:</label>
+                <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter landline number" id="mobile">
                 <div class="text-center">
-                    <a class="btn btn-danger mb-2" asp-controller="Home" asp-action="RegisterA">Next</a>
+                    <a class="btn btn-danger mb-2" href="##" onClick="history.go(-1); return false;">Back</a> 
+                    <a class="btn btn-danger mb-2" asp-controller="Home" asp-action="RegisterP">Next</a>
                 </div>
             </form>
         </div>

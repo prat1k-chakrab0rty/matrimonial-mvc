@@ -21,6 +21,14 @@ namespace Matrimonial.Controllers
         {
             return View();
         }
+        public IActionResult RegisterA()
+        {
+            return View();
+        }
+        public IActionResult RegisterP()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
